@@ -1,0 +1,56 @@
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.flexfooter {
+
+    height: 25%;
+    display: flex;
+    background-color: #2C3E50;
+    color: aliceblue
+}
+
+
+
+div.flexfooter p.location {
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+
+div.footer {
+    height: 50px;
+    background-color: #1A252F;
+}
+
+div.flexfooter div.footer1 {
+
+    margin-left: 15%;
+
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+div.footer2 {
+    font-size: 30px;
+    margin-left: 15%;
+
+    text-align: center;
+}
+
+div.footer3 {
+    font-size: 30px;
+    margin-left: 15%;
+
+    text-align: center;
+}
+
+div.footer {
+    font-size: 30px;
+   text-align: center;
+   color: aliceblue;
+   padding: 1%;
+}
