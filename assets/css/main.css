@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(251, 243, 234);
+}
+
+main {
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.mainheader div.mainch1 {
+    background-color: #1ABC9C;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+
+div.mainch1 img {
+    margin-top: 100px;
+    width: 240px;
+}
+
+div.mainch1 h1 {
+
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+div.mainch1 div.minorch11 {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    margin-bottom: 0;
+
+
+
+}
+
+div.mainch1 div.minorch11 p {
+    letter-spacing: -4px;
+
+}
+
+div.mainch1 div.minorch11 i {
+    padding: 50px;
+    margin-bottom: 0;
+}
+
+div.mainch1 p.ane {
+
+    font-size: 2rem;
+    padding: 3%;
+    margin-top: 0;
+
+}
+
+div.mainch2 div.minorch21 div {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+
+}
+
+div.mainch2 div.minorch21 div p {
+    letter-spacing: -4px;
+
+}
+
+div.mainch2 div.minorch21 div i {
+    padding: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
