@@ -4,9 +4,8 @@ body {
 }
 
 nav {
-
+    z-index: 1;
     position: fixed;
-
     font-size: 1.5rem;
     text-transform: uppercase;
     color: aliceblue;
@@ -83,7 +82,7 @@ main section.sec1 img {
 
 main section.sec1 h1 {
 
-    font-size: 60px;
+    font-size: 100px;
     line-height: 60px;
 
 
@@ -120,12 +119,10 @@ main section.sec1 ul li:last-child::after {
 
 main section.minorsec div.sec2head {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
-    text-align: center;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
@@ -191,6 +188,73 @@ main section.sec2 div.card div.hoverimg {
 
 main section.sec2 div.card:hover div.hoverimg {
 
-    opacity: 0.8;
+    opacity: 0.9;
+
+}
+
+main section.sec3 {
+
+    background-color: #1ABC9C;
+    color: aliceblue;
+
+}
+
+main section.sec3 h3 {
+    padding-top: 2%;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1px;
+}
+
+main section.sec3 div.pflex {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+main section.sec3 div.pflex div {
+    width: 40%;
+    height: 200px;
+    font-size: 30px;
+
+
+}
+
+main section.sec3 div.button {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+main section.sec3 button {
+    cursor: pointer;
+    background-color: #1ABC9C;
+    border: aliceblue 2px solid;
+    color: aliceblue;
+    padding: 1%;
+    font-size: 20px;
+    margin-bottom: 5%;
+    border-radius: 30px;
+
+
+
+
+
+}
+
+main section.sec3 button:hover {
+
+    background-color: aliceblue;
+    color: black;
+    transition: 0.5s;
+
 
 }
