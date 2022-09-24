@@ -200,7 +200,7 @@ main section.sec3 {
 }
 
 main section.sec3 h3 {
-    padding-top: 2%;
+    padding-top: 5%;
     font-size: 60px;
     text-align: center;
     line-height: 1px;
@@ -255,6 +255,180 @@ main section.sec3 button:hover {
     background-color: aliceblue;
     color: black;
     transition: 0.5s;
+
+
+}
+
+main section.last h4 {
+    line-height: 1px;
+    font-size: 60px;
+}
+
+main section.last i {
+
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+main section.last {
+    text-align: center;
+}
+
+main section.last input {
+
+    margin-top: 2%;
+    width: 100%;
+    height: 100px;
+    border-style: none;
+    background-color: antiquewhite;
+    border-bottom: red solid 2px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    font-size: 40px;
+    position: relative;
+
+
+
+
+}
+
+main section.last div {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+main section.last input::placeholder {
+    font-size: 40px;
+}
+
+main section.last input:focus {
+    outline: none;
+
+
+}
+
+main section.last input#message {
+    height: 150px;
+    overflow: auto;
+
+
+}
+
+main section.last button {
+
+    padding: 1%;
+    margin-top: 50px;
+    border-radius: 20px;
+    border-color: #1ABC9C;
+    background-color: #1ABC9C;
+    border: 2px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: aliceblue;
+    width: 25%;
+    margin-bottom: 10%;
+
+
+}
+
+main section.last input:focus::placeholder {
+
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+
+}
+
+footer section.f1sec {
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: #2C3E50;
+    color: aliceblue;
+
+
+}
+
+footer section.f1sec div.f1 span.spanhead {
+    font-size: 40px;
+}
+
+footer section.f1sec div.f1 p {
+    font-size: 20px;
+    line-height: 10px;
+    margin-top: 70px;
+}
+
+footer section.f1sec div.f2 span.spanhead {
+    font-size: 40px;
+}
+
+
+footer section.f1sec div.f2 div.f2f2 {
+
+    margin-top: 70px;
+}
+
+footer section.f1sec div.f2 a {
+
+    border: 3px aliceblue solid;
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 20px;
+
+
+
+
+}
+
+footer section.f1sec div.f2 a:hover {
+
+    background-color: antiquewhite;
+    color: black;
+    transition: 0.5s;
+
+}
+
+footer section.f1sec div.f3 span.spanhead {
+    font-size: 40px;
+}
+
+footer section.f1sec div.f3 p {
+    font-size: 20px;
+    margin-top: 70px;
+    line-height: 10px;
+}
+
+footer section.f1sec div.f3 span.biggiespan {
+
+    cursor: pointer;
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+
+footer section.f2sec {
+    display: flex;
+    font-size: 20p;
+    color: aliceblue;
+    background-color: #1A252F;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 
 
 }
