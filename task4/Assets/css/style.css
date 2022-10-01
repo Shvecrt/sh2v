@@ -1,16 +1,21 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header {
     color: aliceblue;
     background-color: #BD5D38;
-    width: 20%;
+    width: 250px;
     height: 1300px;
-    position: fixed;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     justify-content: center;
     padding: 20px;
-    align-items: center;
+    align-items: flex-start;
+    position: fixed;
 }
+
 
 header .image {
     width: 160px;
@@ -26,12 +31,122 @@ header .image img {
 }
 
 header .list a {
-    color: aliceblue;
+    color: #E1B393;
     font-size: 1.5rem;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 header .list li {
     margin-bottom: 10px;
     padding: 10px;
+}
+
+header .list a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+section {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    margin-left: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+
+
+}
+
+section.intro h1 {
+    font-size: 50px;
+    letter-spacing: -2px;
+    color: #343A40;
+}
+
+section.intro h1 span {
+    color: #BD5D38;
+}
+
+section.intro p.adress {
+    color: #6C757D;
+    letter-spacing: -2px;
+    font-size: 30px;
+}
+
+section.intro p.adress span {
+    color: #BD5D38;
+    letter-spacing: -2px;
+    text-decoration: underline;
+}
+
+section.intro p.paragraph {
+    font-size: 20px;
+    color: #6C757D;
+    margin-bottom: 60px;
+}
+
+section.intro div.links {
+    margin-bottom: 50px;
+}
+
+section.intro div.links a {
+    font-size: 50px;
+    color: #343A40;
+    border: #343A40 2px solid;
+    border-radius: 70px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+section.intro div.links a:hover {
+    color: antiquewhite;
+    background-color: #343A40;
+    border: #343A40 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+section h2,h3,h4,h5,h6 {
+    color: #343A40;
+    font-size: 50px;
+}
+
+section div p.heading {
+    font-size: 40px;
+    color: #343A40;
+}
+
+section div p.minor, ul {
+    font-size: 30px;
+    color: #6C757D;
+}
+
+section div p.normal {
+    color: #6C757D;
+    font-size: 20px;
+    width: 500px;
+}
+
+section.skills {
+    display: block;
+}
+
+section.skills div.icons svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+section.skills li::before{
+ content: '✓';
+}
+
+section.award div.okey li::before {
+content: '🏆';
 }
